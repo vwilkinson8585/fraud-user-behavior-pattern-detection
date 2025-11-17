@@ -1,0 +1,31 @@
+UserID,DeviceID,Location,Timestamp,Deposits,Withdrawals,Sport,EntryType,Stake,Legs,Notes
+U101,D33,GA,2024-11-15 19:03:12,1,0,NBA,Flex3,20,Vince Carter O18.5 PTS; Ray Allen O3.5 3PM; Jason Kidd U9.5 AST,Normal casual play
+U102,D77,GA,2024-11-16 14:22:10,4,4,NFL,Power2,50,Drew Brees O279.5 PY; Jimmy Graham O5.5 REC,Instant withdrawal after wins
+U188,D10,GA,2024-11-17 19:01:55,8,1,NBA,Power3,100,Richard Jefferson O14.5 PTS; Vince Carter O18.5 PTS; Jason Kidd O8.5 AST,Sharp correlated overs
+U511,D10,GA,2024-11-17 19:02:14,2,0,NBA,Power3,50,Richard Jefferson O14.5 PTS; Vince Carter O18.5 PTS; Jason Kidd O8.5 AST,Device-sharing with U188
+U731,D99,TN,2024-11-18 12:00:11,15,0,NFL,Flex5,10,Backup RB O44.5 RY; WR3 O29.5 RY; TE2 U3.5 REC; QB2 O0.5 TD; WR4 O2.5 REC,Promo window hunter
+U910,D77,GA,2024-11-18 14:23:05,3,3,NBA,Flex4,25,Kobe Bryant O28.5 PTS; Pau Gasol O19.5 PTS; Derek Fisher O1.5 3PM; Lamar Odom U8.5 REB,Matches U102 behavior
+U555,D88,GA,2024-11-19 20:44:53,1,0,NFL,Power2,100,Derrick Henry O84.5 RY; Trevor Lawrence U1.5 PASS TD,Casual high-risk
+U311,D42,FL,2024-11-20 12:17:44,12,0,NFL,Power3,75,Backup RB O52.5 RY; WR2 O49.5 RY; TE1 O3.5 REC,Injury-edge hunter
+U147,D42,FL,2024-11-20 12:18:05,3,1,NFL,Flex3,20,Backup RB O52.5 RY; WR2 O49.5 RY; TE1 O3.5 REC,Mirrors U311 timing
+U220,D71,NY,2024-11-21 18:59:33,20,0,NBA,Power2,200,Kevin Durant O27.5 PTS; Devin Booker O4.5 3PM,Targets stale lines
+U912,D71,NY,2024-11-21 18:59:47,2,0,NBA,Power2,40,Kevin Durant O27.5 PTS; Devin Booker O4.5 3PM,Copies U220 instantly
+U444,D55,GA,2024-11-22 11:03:22,4,0,NFL,Flex3,15,Bijan Robinson O62.5 RY; Drake London O4.5 REC; Kyle Pitts U38.5 REC,Location mismatch GA→AL
+U502,D22,SC,2024-11-22 18:25:41,2,0,NBA,Flex2,10,Trae Young O26.5 PTS; Dejounte Murray U6.5 AST,Normal
+U503,D22,SC,2024-11-22 18:26:01,1,0,NBA,Flex2,20,Trae Young O26.5 PTS; Dejounte Murray U6.5 AST,Device-sharing with U502
+U700,D60,AL,2024-11-23 10:15:56,10,0,NFL,Flex4,30,RB2 O39.5 RY; WR4 O41.5 RY; TE1 O3.5 REC; QB O1.5 TD,Aggressive but normal
+U833,D12,GA,2024-11-23 12:01:13,5,3,NFL,Power3,60,Lamar Jackson O72.5 RY; Zay Flowers O4.5 REC; Mark Andrews O59.5 REC,Withdrawal pattern unclear
+U834,D12,GA,2024-11-23 12:02:04,5,3,NFL,Power3,60,Lamar Jackson O72.5 RY; Zay Flowers O4.5 REC; Mark Andrews O59.5 REC,Matched behavior (possible dupe)
+U900,D32,NC,2024-11-23 15:44:55,7,0,NBA,Power4,120,LeBron O27.5 PTS; AD O10.5 REB; Reaves O2.5 3PM; DLo U6.5 AST,High-stakes sharp
+U901,D32,NC,2024-11-23 15:45:12,1,0,NBA,Power4,20,LeBron O27.5 PTS; AD O10.5 REB; Reaves O2.5 3PM; DLo U6.5 AST,Shadowing U900
+U870,D99,TN,2024-11-24 9:03:42,20,0,NFL,Flex5,5,WR5 U2.5 REC; WR4 U3.5 REC; TE3 U2.5 REC; RB4 U11.5 RY; QB3 U0.5 TD,Low-stakes volume spam
+U540,D44,TX,2024-11-24 10:12:07,3,0,NBA,Flex3,15,Klay Thompson O3.5 3PM; Curry O28.5 PTS; Draymond U8.5 AST,Normal
+U300,D88,GA,2024-11-24 11:19:34,1,0,NFL,Power2,75,CMC O82.5 RY; George Kittle O51.5 REC,Casual big bettor
+U301,D88,GA,2024-11-24 11:20:01,1,0,NFL,Power2,25,CMC O82.5 RY; George Kittle O51.5 REC,Device-sharing with U300
+U650,D76,MI,2024-11-24 13:48:27,6,2,NFL,Flex4,40,WR1 O81.5 RY; RB1 O72.5 RY; QB O2.5 TD; TE1 O4.5 REC,Possible sharp
+U651,D76,MI,2024-11-24 13:49:02,8,1,NFL,Flex4,40,WR1 O81.5 RY; RB1 O72.5 RY; QB O2.5 TD; TE1 O4.5 REC,Device-sharing pair
+U200,D01,NY,2024-11-24 14:33:41,2,2,NBA,Flex2,25,Brunson O26.5 PTS; Randle O9.5 REB,Withdrawal-friendly but normal
+U420,D01,NY,2024-11-24 14:34:02,2,1,NBA,Flex2,25,Brunson O26.5 PTS; Randle O9.5 REB,Device-sharing pair
+U150,D09,GA,2024-11-24 16:21:18,12,0,NFL,Power3,150,Tyreek Hill O98.5 YDS; Tua O1.5 PASS TD; Mostert O56.5 RY,Aggressive sharp
+U151,D09,GA,2024-11-24 16:21:51,1,0,NFL,Power3,20,Tyreek Hill O98.5 YDS; Tua O1.5 PASS TD; Mostert O56.5 RY,Shadowing U150
+U990,D41,VA,2024-11-24 18:05:12,3,0,NBA,Flex5,10,Random mix of 5 props,Pure normal
